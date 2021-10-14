@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Game/Character ID:"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:background="#d9138a"
+        android:layout_margin="30dp"
+        android:textColor="#372800"
+        android:textAlignment="center"
+        />
+
+    <EditText
+        android:id="@+id/GameId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:background="#12a4d9"
+        app:layout_constraintTop_toBottomOf="@id/textView"
+        android:layout_margin="30dp"
+        android:hint="534256356"
+        android:inputType="text"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Mobile Nos:"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/GameId"
+        app:layout_constraintRight_toRightOf="parent"
+        android:background="#d9138a"
+        android:layout_margin="30dp"
+        android:textColor="#372800"
+        android:textAlignment="center"
+        />
+
+    <EditText
+        android:id="@+id/PhoneNos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:background="#12a4d9"
+        app:layout_constraintTop_toBottomOf="@id/textView2"
+        android:layout_margin="30dp"
+        android:hint="534256356"
+        android:inputType="number"
+        android:textAlignment="center"
+        />
+
+    <Button
+        android:id="@+id/Apply_Now"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apply Now"
+        android:textColor="#283350"
+        android:backgroundTint="#FF5349"
+        android:onClick="book_slot"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/PhoneNos"
+        android:layout_margin="30dp"
+
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

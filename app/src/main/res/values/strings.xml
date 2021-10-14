@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Test_Games_Finder</string>
+    <string name="title">Please Select The Time</string>
+    <string name="selected_time_prefix">Your selected time is</string>
+    <string name="declinedRed"><![CDATA[<b><font color=#FF0000>Declined</font></b>]]></string>
+    <string name="approvedBlue"><![CDATA[<b><font color=#0000FF>Approved</font></b>]]></string>
+
+    <!-- %1$s:%2$s will add the string in HH:MM format
+    for more understanding follow the link at the end -->
+    <string name="selected_time_format">%1$s:%2$s</string>
+
+    <!-- >> means >> for more understanding follow
+    the link at the end -->
+    <string name="time_prefix">>></string>
+
+    <!-- << means << for more understanding follow
+    the link at the end -->
+    <string name="time_suffix"></string>
+    <string name="find_players_for_pc_co_op_or_team_games">Find players for PC Co-op or team games</string>
+
+    <string-array name="game_list">
+        <item>Valorant</item>
+        <item>Pubg PC</item>
+        <item>Apex</item>
+        <item>FortNite</item>
+        <item>Rocket League</item>
+    </string-array>
+
+    <string-array name="time_list">
+        <item>00</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+    </string-array>
+    <string-array name="time_list2">
+
+    </string-array>
+
+</resources>

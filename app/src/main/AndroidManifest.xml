@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shivamvermasv380.test_games_finder">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Test_Games_Finder">
+        <activity
+            android:name=".MainActivity.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="Login_Register.LoginActivity"/>
+        <activity android:name="Login_Register.RegisterActivity"/>
+        <activity android:name="View_Create_Posts.ViewPost"/>
+        <activity android:name="View_Create_Posts.Ask_To_Join_Information"/>
+        <activity android:name="View_Create_Posts.CreatePost"/>
+        <activity android:name="ViewAccount.Post_ApprovalRequests"/>
+        <activity android:name="ViewAccount.View_Created_Posts"/>
+        <activity android:name="ViewAccount.ViewAccountInformation"/>
+    </application>
+
+</manifest>

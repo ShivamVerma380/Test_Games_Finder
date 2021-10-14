@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:id="@+id/userName"
+        android:layout_width="match_parent"
+        android:text="Name:"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="20sp"
+        android:textAlignment="textStart"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+    <TextView
+        android:id="@+id/userEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/userName"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="20sp"
+        android:textAlignment="textStart"
+        android:text="User Email:"
+        />
+    <Button
+        android:id="@+id/ViewCreatedPostsStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Created Posts Status"
+        android:onClick="view_created_post_status"
+        android:layout_margin="30dp"
+        app:layout_constraintTop_toBottomOf="@id/userEmail"
+        />
+    <Button
+        android:id="@+id/ViewAppliedPostsStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Applied Posts Status"
+        android:onClick="view_applied_post_status"
+        android:layout_margin="30dp"
+        app:layout_constraintTop_toBottomOf="@id/ViewCreatedPostsStatus"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
