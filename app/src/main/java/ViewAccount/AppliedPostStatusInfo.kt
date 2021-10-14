@@ -1,0 +1,4 @@
+package ViewAccount
+
+class AppliedPostStatusInfo {
+}
